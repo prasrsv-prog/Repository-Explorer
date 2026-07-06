@@ -10,3 +10,6 @@ class RepositorySnapshot:
     """
 
     repository_nodes: list[RepositoryNode]
+
+    def count(self) -> int:
+        return len(self.repository_nodes)

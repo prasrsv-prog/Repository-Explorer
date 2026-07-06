@@ -15,4 +15,4 @@ def test_create_repository_snapshot() -> None:
         repository_nodes=[node],
     )
 
-    assert len(snapshot.repository_nodes) == 1
+    assert snapshot.count() == 1
