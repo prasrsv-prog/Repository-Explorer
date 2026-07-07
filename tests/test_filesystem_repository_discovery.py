@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from src.discovery.filesystem_repository_discovery import (
+from repository_explorer.discovery.filesystem_repository_discovery import (
     FilesystemRepositoryDiscovery,
 )
 

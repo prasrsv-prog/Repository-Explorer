@@ -1,5 +1,5 @@
-from src.model.repository_extensions import RepositoryExtensions
-from src.model.repository_snapshot import RepositorySnapshot
+from repository_explorer.model.repository_extensions import RepositoryExtensions
+from repository_explorer.model.repository_snapshot import RepositorySnapshot
 
 
 class RepositoryExtensionAnalyzer:

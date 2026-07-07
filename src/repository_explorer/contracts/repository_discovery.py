@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from pathlib import Path
 
-from src.model.repository_snapshot import RepositorySnapshot
+from repository_explorer.model.repository_snapshot import RepositorySnapshot
 
 
 class RepositoryDiscovery(ABC):

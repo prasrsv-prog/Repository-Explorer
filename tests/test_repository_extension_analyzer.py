@@ -1,10 +1,10 @@
 from pathlib import Path
 
-from src.analysis.repository_extension_analyzer import (
+from repository_explorer.analysis.repository_extension_analyzer import (
     RepositoryExtensionAnalyzer,
 )
-from src.model.repository_node import RepositoryNode
-from src.model.repository_snapshot import RepositorySnapshot
+from repository_explorer.model.repository_node import RepositoryNode
+from repository_explorer.model.repository_snapshot import RepositorySnapshot
 
 
 def test_repository_extension_analyzer() -> None:

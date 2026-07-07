@@ -1,11 +1,11 @@
 from pathlib import Path
 
-from src.model.repository_directories import RepositoryDirectories
-from src.model.repository_extensions import RepositoryExtensions
-from src.model.repository_exploration import RepositoryExploration
-from src.model.repository_node import RepositoryNode
-from src.model.repository_snapshot import RepositorySnapshot
-from src.model.repository_statistics import RepositoryStatistics
+from repository_explorer.model.repository_directories import RepositoryDirectories
+from repository_explorer.model.repository_extensions import RepositoryExtensions
+from repository_explorer.model.repository_exploration import RepositoryExploration
+from repository_explorer.model.repository_node import RepositoryNode
+from repository_explorer.model.repository_snapshot import RepositorySnapshot
+from repository_explorer.model.repository_statistics import RepositoryStatistics
 
 
 def test_create_repository_exploration() -> None:

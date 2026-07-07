@@ -1,8 +1,8 @@
 from pathlib import Path
 
-from src.contracts.repository_discovery import RepositoryDiscovery
-from src.model.repository_node import RepositoryNode
-from src.model.repository_snapshot import RepositorySnapshot
+from repository_explorer.contracts.repository_discovery import RepositoryDiscovery
+from repository_explorer.model.repository_node import RepositoryNode
+from repository_explorer.model.repository_snapshot import RepositorySnapshot
 
 
 class FilesystemRepositoryDiscovery(RepositoryDiscovery):

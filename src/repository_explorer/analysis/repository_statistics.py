@@ -1,5 +1,5 @@
-from src.model.repository_snapshot import RepositorySnapshot
-from src.model.repository_statistics import RepositoryStatistics
+from repository_explorer.model.repository_snapshot import RepositorySnapshot
+from repository_explorer.model.repository_statistics import RepositoryStatistics
 
 
 class RepositoryStatisticsAnalyzer:

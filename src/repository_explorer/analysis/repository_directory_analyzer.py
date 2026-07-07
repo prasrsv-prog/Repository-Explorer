@@ -1,5 +1,5 @@
-from src.model.repository_directories import RepositoryDirectories
-from src.model.repository_snapshot import RepositorySnapshot
+from repository_explorer.model.repository_directories import RepositoryDirectories
+from repository_explorer.model.repository_snapshot import RepositorySnapshot
 
 
 class RepositoryDirectoryAnalyzer:

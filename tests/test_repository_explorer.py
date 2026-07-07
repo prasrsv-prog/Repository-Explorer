@@ -1,9 +1,9 @@
 from pathlib import Path
 
-from src.discovery.filesystem_repository_discovery import (
+from repository_explorer.discovery.filesystem_repository_discovery import (
     FilesystemRepositoryDiscovery,
 )
-from src.explorer.repository_explorer import RepositoryExplorer
+from repository_explorer.explorer.repository_explorer import RepositoryExplorer
 
 
 def test_repository_explorer() -> None:

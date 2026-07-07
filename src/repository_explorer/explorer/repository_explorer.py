@@ -1,16 +1,16 @@
 from pathlib import Path
 
-from src.analysis.repository_directory_analyzer import (
+from repository_explorer.analysis.repository_directory_analyzer import (
     RepositoryDirectoryAnalyzer,
 )
-from src.analysis.repository_extension_analyzer import (
+from repository_explorer.analysis.repository_extension_analyzer import (
     RepositoryExtensionAnalyzer,
 )
-from src.analysis.repository_statistics import (
+from repository_explorer.analysis.repository_statistics import (
     RepositoryStatisticsAnalyzer,
 )
-from src.contracts.repository_discovery import RepositoryDiscovery
-from src.model.repository_exploration import RepositoryExploration
+from repository_explorer.contracts.repository_discovery import RepositoryDiscovery
+from repository_explorer.model.repository_exploration import RepositoryExploration
 
 
 class RepositoryExplorer:
